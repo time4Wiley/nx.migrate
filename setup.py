@@ -11,10 +11,10 @@ import setuptools
 long_description = ""
 
 setuptools.setup(
-    name="nx_migrate".replace('_', '.'),
+    name="nx_migrate".replace("_", "."),
     version="1.0.0",
     author="Sun Wei",
-    author_email="sw@gfloan.com",
+    author_email="sunwei415@126.com",
     description="nx_migrate",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -27,10 +27,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-
+        "argparse",
     ],
-    entry_points={
-        'console_scripts': ['nx_migrate=nx_migrate.test_nx_migrate:main']
-    }
+    entry_points={"console_scripts": ["nx_migrate=nx_migrate.nx_migrate:main"]},
 )
 pass
