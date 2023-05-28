@@ -27,7 +27,7 @@ def nx_migrate(user_dir):
         os.chdir(user_dir)
 
         # Execute the nx migrate command
-        subprocess.check_call(["nx", "migrate"])
+        subprocess.check_call(["nx", "migrate", "latest"])
     finally:
         # Regardless of what happens, restore the location
         os.chdir(current_location)
