@@ -1,9 +1,12 @@
-# nx_migrate Package
+# nx-migrate Package
 
 ## installation
 ```
 pip install nx-migrate
 ```
+
+## Notice
+the `nx` command must be available in your `system's PATH` for this script to work.
 
 ## Usage
 - Example on Windows

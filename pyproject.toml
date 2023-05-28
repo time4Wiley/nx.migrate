@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nx-migrate"
-version = "0.3.0"
+version = "0.3.1"
 description = "call nx migrate anywhere"
 authors = ["Wei Sun <sunwei415@126.com>"]
 license = "MIT"
