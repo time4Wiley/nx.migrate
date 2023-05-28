@@ -39,7 +39,7 @@ def main():
         "-u", "--user_dir", help="User directory to switch to", required=True
     )
     args = parser.parse_args()
-    nx_migrate(args.userdir)
+    nx_migrate(args.user_dir)
 
 
 if __name__ == "__main__":
