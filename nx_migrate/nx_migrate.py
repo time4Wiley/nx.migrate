@@ -33,11 +33,14 @@ def nx_migrate(user_dir):
         os.chdir(current_location)
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Migrate nx project")
     parser.add_argument(
         "-u", "--user_dir", help="User directory to switch to", required=True
     )
     args = parser.parse_args()
-
     nx_migrate(args.userdir)
+
+
+if __name__ == "__main__":
+    main()
